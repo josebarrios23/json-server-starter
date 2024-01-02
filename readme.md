@@ -20,3 +20,14 @@ The following resources exist:
 1. Clone the repository.
 1. `npm install`
 1. `npm run dev`
+
+
+## Returning Data
+
+If you use the Destory/Delete Function your data will be removed from the `db.json` file permanently.
+
+To restore the data, 
+
+1. Stop the server
+
+1. Copy the data from `originalData.json` into `db.json`
