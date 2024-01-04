@@ -22,7 +22,7 @@ The following resources exist:
 
 ## Returning Data
 
-If you use the Destory/Delete Function your data will be removed from the `db.json` file permanently.
+If you use the Destroy/Delete Function your data will be removed from the `db.json` file permanently.
 
 To restore the data, 
 
