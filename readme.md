@@ -1,5 +1,7 @@
 # JSON Server Starter
 
+<img src="./server.js" alt="server" width="400" height="400">
+
 As a Frontend Developer, you might want to have a project where you simply show off your Frontend skills (e.g. ReactJS Skills, CSS Skills, DOM Manipulation Skills). 
 
 Maybe you only want to be a Frontend Dev. You do not always have to take the time to create a Back End REST API and Node Server if this is your intention. 
