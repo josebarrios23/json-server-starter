@@ -1,6 +1,6 @@
 # JSON Server Starter
 
-<img src="./server.js" alt="server" width="400" height="400">
+<img src="./server.jpg" alt="server" width="400" height="400">
 
 As a Frontend Developer, you might want to have a project where you simply show off your Frontend skills (e.g. ReactJS Skills, CSS Skills, DOM Manipulation Skills). 
 
