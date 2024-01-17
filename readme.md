@@ -1,6 +1,8 @@
 # JSON Server Starter
 
-As a Frontend Developer, you do not always want to take the time to create a Back End REST API and Node Server. Maybe you want to show off your React Skills or your CSS Skills.
+As a Frontend Developer, you might want to have a project where you simply show off your Frontend skills (e.g. ReactJS Skills, CSS Skills, DOM Manipulation Skills). 
+
+Maybe you only want to be a Frontend Dev. You do not always have to take the time to create a Back End REST API and Node Server if this is your intention. 
 
 This JSON Server can allow you to create data on your backend as if you are using a database. You will have the ability to run full CRUD (GET, POST, PUT/PATCH, DELETE)
 
@@ -10,9 +12,11 @@ This server is created using the [`json-server`](https://www.npmjs.com/package/j
 
 ### Resources
 
-To create a resource you must first create data. Feel free to use ChatGPT or Mockaroo or hard code the data yourself. The data must be an array of objects.
+To create a resource you must first create data. Feel free to use ChatGPT or [Mockaroo](https://www.mockaroo.com/) or you can even hard code the data yourself. 
 
-You will place this data in the `data/db.json` file and into the `data/originalData.json` file. The array of objects should be given a key and placed in the JSON object. e.g
+**NOTE: The data you create MUST be an array of objects.**
+
+You will place your created data in the `data/db.json` file and into the `data/originalData.json` file. The array of objects should be given a `key` and placed in the JSON object in the `db.json` and `originalData.json` files. e.g
 
 ```json
 {
@@ -38,7 +42,8 @@ You will place this data in the `data/db.json` file and into the `data/originalD
 
 ```
 
-***NOTE:***
+### Endpoint Created Automagically
+
 When using this format in your JSON, this will create an api endpoint. The endpoint will be based on the key that you give your array of objects. In the above example the key is `students`. 
 
 Your endpoing would be `/api/students`. If the key had been people, then your endpoint would have been `api/people`
@@ -49,6 +54,7 @@ JSON server does this for you automagically.
 ## Installation
 
 1. Clone the repository.
+1. Add your data
 1. `npm install`
 1. `npm run dev`
 
