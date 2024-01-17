@@ -1,4 +1,4 @@
-const cors = require("cors");
+// const cors = require("cors");
 const jsonServer = require("json-server");
 const path = require("path");
 
@@ -8,13 +8,14 @@ const middleware = jsonServer.defaults();
 const port = process.env.PORT || 5001;
 
 // Enable all CORS requests.
-app.use(cors());
+// app.use(cors());
 
 // Index route message.
 app.get("/", (_req, _res, next) => {
+  // res.send(`Welcome to Student Dashboard Reboot. Use the '/students' resource to GET your data`)
   next({
-    message: "No resource found.",
-    status: 404,
+    message: `Welcome to Student Dashboard Reboot. Use the '/api/students' endpoint to GET your student data`,
+    status: 200
   });
 });
 

@@ -1,5 +1,5 @@
 {
-  "students":[
+  "students": [
     {
       "id": "D8-hEWB",
       "names": {
@@ -49,7 +49,7 @@
         "middleName": "Julian",
         "surname": "Heller"
       },
-      "username": "phil.heller@pursuit.org",
+      "username": "phil.heller@me.org",
       "dob": "1/4/1988",
       "profilePhoto": "https://xsgames.co/randomusers/avatar.php?g=male&minimum_age=29&maximum_age=39",
       "codewars": {
@@ -86,7 +86,7 @@
         "middleName": "London",
         "surname": "Hammes"
       },
-      "username": "gina.hammes@pursuit.org",
+      "username": "gina.hammes@me.com",
       "dob": "3/12/1982",
       "profilePhoto": "https://xsgames.co/randomusers/avatar.php?g=female&minimum_age=35&maximum_age=45",
       "codewars": {
@@ -1122,7 +1122,7 @@
         "middleName": "Suzanne",
         "surname": "Bashirian"
       },
-      "username": "rosemary.bashirian@pursuit.org",
+      "username": "rosemary.byrne@pursuit.org",
       "dob": "7/8/1988",
       "profilePhoto": "https://xsgames.co/randomusers/avatar.php?g=female&minimum_age=29&maximum_age=39",
       "codewars": {
