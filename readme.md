@@ -54,6 +54,10 @@ Your endpoing would be `/api/students`. If the key had been people, then your en
 
 JSON server does this for you automagically.
 
+Test it by running your server, then going to the browser and entering in the URL address bar, `localhost:5001/api/<the key for your array>`
+
+You should see the data you added render in the browser
+
 
 ## Installation
 
