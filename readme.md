@@ -62,7 +62,7 @@ You should see the data you added render in the browser
 ## Installation
 
 1. Clone the repository.
-1. Add your data
+1. Add your data to the json files
 1. `npm install`
 1. `npm run dev`
 
