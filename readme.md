@@ -4,7 +4,9 @@
 
 As a Frontend Developer, you might want to have a project where you simply show off your Frontend skills (e.g. ReactJS Skills, CSS Skills, DOM Manipulation Skills). 
 
-Maybe you only want to be a Frontend Dev. You do not always have to take the time to create a Back End REST API and Node Server if this is your intention. 
+Maybe you choose to specialize as a Frontend Dev. 
+
+You do not always have to take the time to create a Back End REST API and Node Server if this is your intention. 
 
 This JSON Server can allow you to create data on your backend as if you are using a database. You will have the ability to run full CRUD (GET, POST, PUT/PATCH, DELETE)
 
