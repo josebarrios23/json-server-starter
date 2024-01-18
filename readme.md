@@ -76,3 +76,13 @@ To restore the data,
 1. Stop the server
 
 1. Copy the data from `originalData.json` into `db.json`
+
+
+## How-To Videos 
+
+**[JSON Server How-To Videos](https://github.com/10-3-pursuit/10-3-resources/blob/main/json-server.md)**
+
+- Data creation 
+- Using ChatGPT or Mockaroo to create JSON and images
+- Uploading images to Cloudinary to use in your FrontEnd Application
+
