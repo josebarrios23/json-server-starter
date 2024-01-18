@@ -50,7 +50,7 @@ You will place your created data in the `data/db.json` file and into the `data/o
 
 When using this format in your JSON, this will create an api endpoint. The endpoint will be based on the key that you give your array of objects. In the above example the key is `students`. 
 
-Your endpoing would be `/api/students`. If the key had been people, then your endpoint would have been `api/people`
+Your endpoint would be `/api/students`. If the key had been people, then your endpoint would have been `api/people`
 
 JSON server does this for you automagically.
 
