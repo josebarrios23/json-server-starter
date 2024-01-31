@@ -1,3 +1,883 @@
 {
- 
+    "users": [
+        {
+            "id": "1",
+            "user": "1",
+            "name": {
+                "firstName": "Israel",
+                "lastName": "Rodriguez"
+            },
+            "project": {
+                "projectTitle": "Backyard Renovation",
+                "projectDescription": "My backyard has been neglected for years. Looking for people who can help me realize my vision for it.",
+                "positionsNeeded": {
+                    "landscaper": {
+                        "payPerHour": "$40",
+                        "workDuration": "Two Weeks",
+                        "experience": "3 years",
+                        "applicantCount": 0,
+                        "applicantInfo": []
+                    },
+                    "electrician": {
+                        "payPerHour": "$45",
+                        "workDuration": "Two Weeks",
+                        "experience": "5 years",
+                        "applicantCount": 0,
+                        "applicantInfo": []
+                    },
+                    "carpenter": {
+                        "payPerHour": "$50",
+                        "workDuration": "Two Weeks",
+                        "experience": "7 years",
+                        "applicantCount": 1,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Alan R.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "alanr123@gmail.com",
+                                "comments": "Look forward to hearing from you."
+                            }
+                        ]
+                    }
+                },
+                "fullDescription": "The 'Backyard Renovation' initiative is all about transformation and innovation. We've planned Two Weeks for a landscaper, Two Weeks for a electrician, Two Weeks for a carpenter. This project is an exciting opportunity to create something truly remarkable."
+            }
+        },
+        {
+            "id": "2",
+            "user": "2",
+            "name": {
+                "firstName": "John",
+                "lastName": "Doe"
+            },
+            "project": {
+                "projectTitle": "Kitchen Remodeling",
+                "projectDescription": "I want to transform my outdated kitchen into a modern and functional space.",
+                "positionsNeeded": {
+                    "plumber": {
+                        "payPerHour": "$55",
+                        "workDuration": "Three Weeks",
+                        "experience": "4 years",
+                        "applicantCount": 2,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Sarah P.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "sarahp456@gmail.com",
+                                "comments": "Excited to be part of the project."
+                            },
+                            {
+                                "applicant": "Mike L.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "mikel789@gmail.com",
+                                "comments": "I'm ready to start whenever you are."
+                            }
+                        ]
+                    },
+                    "painter": {
+                        "payPerHour": "$30",
+                        "workDuration": "Two Weeks",
+                        "experience": "2 years",
+                        "applicantCount": 3,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Emily S.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "emilys123@gmail.com",
+                                "comments": "Looking forward to bringing your vision to life."
+                            },
+                            {
+                                "applicant": "Jack H.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "jackh456@gmail.com",
+                                "comments": "I can handle all your painting needs."
+                            },
+                            {
+                                "applicant": "Linda M.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "lindam789@gmail.com",
+                                "comments": "Let's make your kitchen beautiful."
+                            }
+                        ]
+                    },
+                    "electrician": {
+                        "payPerHour": "$50",
+                        "workDuration": "Three Weeks",
+                        "experience": "6 years",
+                        "applicantCount": 1,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Tom W.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "tomw123@gmail.com",
+                                "comments": "I'm the electrician you need for the job."
+                            }
+                        ]
+                    }
+                },
+                "fullDescription": "For 'Kitchen Remodeling', we envision a comprehensive and dynamic approach. The timeline is set for Three Weeks for a plumber, Two Weeks for a painter, Three Weeks for a electrician. We're seeking creative minds to join us on this ambitious journey."
+            }
+        },
+        {
+            "id": "3",
+            "user": "3",
+            "name": {
+                "firstName": "Alice",
+                "lastName": "Smith"
+            },
+            "project": {
+                "projectTitle": "Bathroom Renovation",
+                "projectDescription": "I want to transform my old bathroom into a luxurious spa-like retreat.",
+                "positionsNeeded": {
+                    "plumber": {
+                        "payPerHour": "$60",
+                        "workDuration": "Four Weeks",
+                        "experience": "5 years",
+                        "applicantCount": 2,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Mark B.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "markb123@gmail.com",
+                                "comments": "Excited to work on your bathroom project."
+                            },
+                            {
+                                "applicant": "Lisa C.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "lisac456@gmail.com",
+                                "comments": "I can make your bathroom dream come true."
+                            }
+                        ]
+                    },
+                    "tiler": {
+                        "payPerHour": "$40",
+                        "workDuration": "Three Weeks",
+                        "experience": "3 years",
+                        "applicantCount": 1,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Sam T.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "samt789@gmail.com",
+                                "comments": "I specialize in tiling and can do an excellent job for you."
+                            }
+                        ]
+                    },
+                    "electrician": {
+                        "payPerHour": "$55",
+                        "workDuration": "Four Weeks",
+                        "experience": "6 years",
+                        "applicantCount": 3,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Eva M.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "evam123@gmail.com",
+                                "comments": "I'm ready to electrify your bathroom project."
+                            },
+                            {
+                                "applicant": "John D.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "johnd456@gmail.com",
+                                "comments": "I have the electrical skills you need."
+                            },
+                            {
+                                "applicant": "Oliver P.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "oliverp789@gmail.com",
+                                "comments": "Let's make your bathroom shine."
+                            }
+                        ]
+                    }
+                },
+                "fullDescription": "Embarking on 'Bathroom Renovation' means embarking on a path of discovery and excellence. The project spans Four Weeks for a plumber, Three Weeks for a tiler, Four Weeks for a electrician. We invite passionate professionals to contribute to this groundbreaking endeavor."
+            }
+        },
+        {
+            "id": "4",
+            "user": "1",
+            "name": {
+                "firstName": "Israel",
+                "lastName": "Rodriguez"
+            },
+            "project": {
+                "projectTitle": "Garden Landscaping",
+                "projectDescription": "I want to create a beautiful garden oasis in my backyard.",
+                "positionsNeeded": {
+                    "landscaper": {
+                        "payPerHour": "$45",
+                        "workDuration": "Three Weeks",
+                        "experience": "4 years",
+                        "applicantCount": 1,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Nina W.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "ninaw123@gmail.com",
+                                "comments": "I can turn your garden into a paradise."
+                            }
+                        ]
+                    },
+                    "gardener": {
+                        "payPerHour": "$35",
+                        "workDuration": "Two Weeks",
+                        "experience": "2 years",
+                        "applicantCount": 2,
+                        "applicantInfo": [
+                            {
+                                "applicant": "George S.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "georges456@gmail.com",
+                                "comments": "I have a green thumb and can make your garden flourish."
+                            },
+                            {
+                                "applicant": "Lucy M.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "lucym789@gmail.com",
+                                "comments": "Let me help you create a stunning garden."
+                            }
+                        ]
+                    },
+                    "irrigation-specialist": {
+                        "payPerHour": "$50",
+                        "workDuration": "Three Weeks",
+                        "experience": "3 years",
+                        "applicantCount": 2,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Tom H.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "tomh123@gmail.com",
+                                "comments": "I'll ensure your garden stays hydrated."
+                            },
+                            {
+                                "applicant": "Anna K.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "annak456@gmail.com",
+                                "comments": "I specialize in irrigation systems."
+                            }
+                        ]
+                    }
+                },
+                "fullDescription": "The 'Garden Landscaping' initiative is all about transformation and innovation. We've planned Three Weeks for a landscaper, Two Weeks for a gardener, Three Weeks for a irrigation-specialist. This project is an exciting opportunity to create something truly remarkable."
+            }
+        },
+        {
+            "id": "5",
+            "user": "2",
+            "name": {
+                "firstName": "John",
+                "lastName": "Doe"
+            },
+            "project": {
+                "projectTitle": "Home Office Setup",
+                "projectDescription": "I want to create a productive and comfortable home office space.",
+                "positionsNeeded": {
+                    "carpenter": {
+                        "payPerHour": "$55",
+                        "workDuration": "Three Weeks",
+                        "experience": "4 years",
+                        "applicantCount": 2,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Alex C.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "alexc123@gmail.com",
+                                "comments": "I can build the perfect office furniture for you."
+                            },
+                            {
+                                "applicant": "Emma L.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "emmal456@gmail.com",
+                                "comments": "I'll make your home office stylish and functional."
+                            }
+                        ]
+                    },
+                    "electrician": {
+                        "payPerHour": "$50",
+                        "workDuration": "Two Weeks",
+                        "experience": "3 years",
+                        "applicantCount": 1,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Ryan M.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "ryanm789@gmail.com",
+                                "comments": "I'll handle all your electrical needs."
+                            }
+                        ]
+                    },
+                    "painter": {
+                        "payPerHour": "$40",
+                        "workDuration": "Two Weeks",
+                        "experience": "2 years",
+                        "applicantCount": 2,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Sophie B.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "sophieb123@gmail.com",
+                                "comments": "I'll give your home office a fresh look."
+                            },
+                            {
+                                "applicant": "David H.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "davidh456@gmail.com",
+                                "comments": "I specialize in interior painting."
+                            }
+                        ]
+                    }
+                },
+                "fullDescription": "For 'Home Office Setup', we envision a comprehensive and dynamic approach. The timeline is set for Three Weeks for a carpenter, Two Weeks for a electrician, Two Weeks for a painter. We're seeking creative minds to join us on this ambitious journey."
+            }
+        },
+        {
+            "id": "6",
+            "user": "3",
+            "name": {
+                "firstName": "Alice",
+                "lastName": "Smith"
+            },
+            "project": {
+                "projectTitle": "Outdoor Deck Construction",
+                "projectDescription": "I want to build a spacious outdoor deck for entertaining guests.",
+                "positionsNeeded": {
+                    "carpenter": {
+                        "payPerHour": "$60",
+                        "workDuration": "Four Weeks",
+                        "experience": "5 years",
+                        "applicantCount": 2,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Lucas R.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "lucasr123@gmail.com",
+                                "comments": "I'll create a beautiful deck for your outdoor gatherings."
+                            },
+                            {
+                                "applicant": "Ava S.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "avas456@gmail.com",
+                                "comments": "Let's turn your outdoor space into a paradise."
+                            }
+                        ]
+                    },
+                    "deck-designer": {
+                        "payPerHour": "$70",
+                        "workDuration": "Three Weeks",
+                        "experience": "4 years",
+                        "applicantCount": 1,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Noah D.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "noahd789@gmail.com",
+                                "comments": "I'll design the perfect deck layout for your needs."
+                            }
+                        ]
+                    },
+                    "landscaper": {
+                        "payPerHour": "$45",
+                        "workDuration": "Two Weeks",
+                        "experience": "2 years",
+                        "applicantCount": 2,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Lily M.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "lilym123@gmail.com",
+                                "comments": "I'll make sure your deck blends seamlessly with your garden."
+                            },
+                            {
+                                "applicant": "Henry F.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "henryf456@gmail.com",
+                                "comments": "I'm skilled in outdoor landscaping."
+                            }
+                        ]
+                    }
+                },
+                "fullDescription": "Embarking on 'Outdoor Deck Construction' means embarking on a path of discovery and excellence. The project spans Four Weeks for a carpenter, Three Weeks for a deck-designer, Two Weeks for a landscaper. We invite passionate professionals to contribute to this groundbreaking endeavor."
+            }
+        },
+        {
+            "id": "7",
+            "user": "1",
+            "name": {
+                "firstName": "Israel",
+                "lastName": "Rodriguez"
+            },
+            "project": {
+                "projectTitle": "Basement Renovation",
+                "projectDescription": "I want to transform my basement into a cozy living space.",
+                "positionsNeeded": {
+                    "contractor": {
+                        "payPerHour": "$65",
+                        "workDuration": "Five Weeks",
+                        "experience": "6 years",
+                        "applicantCount": 3,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Sophia C.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "sophiac123@gmail.com",
+                                "comments": "I'll manage your entire renovation project."
+                            },
+                            {
+                                "applicant": "William G.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "williamg456@gmail.com",
+                                "comments": "I'm an experienced contractor ready for your project."
+                            },
+                            {
+                                "applicant": "Grace H.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "graceh789@gmail.com",
+                                "comments": "I'll make your basement dream come true."
+                            }
+                        ]
+                    },
+                    "plumber": {
+                        "payPerHour": "$55",
+                        "workDuration": "Four Weeks",
+                        "experience": "5 years",
+                        "applicantCount": 1,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Daniel W.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "danielw123@gmail.com",
+                                "comments": "I'll handle all plumbing work for your renovation."
+                            }
+                        ]
+                    },
+                    "electrician": {
+                        "payPerHour": "$60",
+                        "workDuration": "Four Weeks",
+                        "experience": "4 years",
+                        "applicantCount": 2,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Olivia M.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "oliviam456@gmail.com",
+                                "comments": "I'm the electrician you need for your basement project."
+                            },
+                            {
+                                "applicant": "Jack B.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "jackb789@gmail.com",
+                                "comments": "I'll ensure your basement has proper electrical wiring."
+                            }
+                        ]
+                    }
+                },
+                "fullDescription": "The 'Basement Renovation' initiative is all about transformation and innovation. We've planned Five Weeks for a contractor, Four Weeks for a plumber, Four Weeks for a electrician. This project is an exciting opportunity to create something truly remarkable."
+            }
+        },
+        {
+            "id": "8",
+            "user": "2",
+            "name": {
+                "firstName": "John",
+                "lastName": "Doe"
+            },
+            "project": {
+                "projectTitle": "Roof Replacement",
+                "projectDescription": "I need to replace the old roof of my house before the rainy season.",
+                "positionsNeeded": {
+                    "roofer": {
+                        "payPerHour": "$70",
+                        "workDuration": "Four Weeks",
+                        "experience": "7 years",
+                        "applicantCount": 2,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Nathan R.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "nathanr123@gmail.com",
+                                "comments": "I'm a skilled roofer, and your roof will be in great hands."
+                            },
+                            {
+                                "applicant": "Emma L.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "emmal456@gmail.com",
+                                "comments": "I'll ensure your new roof is durable and weatherproof."
+                            }
+                        ]
+                    },
+                    "inspector": {
+                        "payPerHour": "$45",
+                        "workDuration": "Two Weeks",
+                        "experience": "3 years",
+                        "applicantCount": 1,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Jacob P.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "jacobp789@gmail.com",
+                                "comments": "I'll inspect your roof thoroughly before and after replacement."
+                            }
+                        ]
+                    },
+                    "safety-coordinator": {
+                        "payPerHour": "$50",
+                        "workDuration": "Three Weeks",
+                        "experience": "4 years",
+                        "applicantCount": 1,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Sophia W.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "sophiaw123@gmail.com",
+                                "comments": "I'll ensure safety during the roof replacement process."
+                            }
+                        ]
+                    }
+                },
+                "fullDescription": "For 'Roof Replacement', we envision a comprehensive and dynamic approach. The timeline is set for Four Weeks for a roofer, Two Weeks for a inspector, Three Weeks for a safety-coordinator. We're seeking creative minds to join us on this ambitious journey."
+            }
+        },
+        {
+            "id": "9",
+            "user": "3",
+            "name": {
+                "firstName": "Alice",
+                "lastName": "Smith"
+            },
+            "project": {
+                "projectTitle": "Attic Conversion",
+                "projectDescription": "I want to convert my attic into a functional guest room.",
+                "positionsNeeded": {
+                    "contractor": {
+                        "payPerHour": "$65",
+                        "workDuration": "Five Weeks",
+                        "experience": "6 years",
+                        "applicantCount": 3,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Sophia C.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "sophiac123@gmail.com",
+                                "comments": "I'll manage your entire attic conversion project."
+                            },
+                            {
+                                "applicant": "Daniel G.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "danielg456@gmail.com",
+                                "comments": "I'm an experienced contractor ready for your project."
+                            },
+                            {
+                                "applicant": "Grace H.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "graceh789@gmail.com",
+                                "comments": "I'll make your attic guest room a reality."
+                            }
+                        ]
+                    },
+                    "plumber": {
+                        "payPerHour": "$55",
+                        "workDuration": "Four Weeks",
+                        "experience": "5 years",
+                        "applicantCount": 1,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Daniel W.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "danielw123@gmail.com",
+                                "comments": "I'll handle all plumbing work for your attic conversion."
+                            }
+                        ]
+                    },
+                    "electrician": {
+                        "payPerHour": "$60",
+                        "workDuration": "Four Weeks",
+                        "experience": "4 years",
+                        "applicantCount": 2,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Olivia M.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "oliviam456@gmail.com",
+                                "comments": "I'm the electrician you need for your attic project."
+                            },
+                            {
+                                "applicant": "Jack B.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "jackb789@gmail.com",
+                                "comments": "I'll ensure your attic has proper electrical wiring."
+                            }
+                        ]
+                    }
+                },
+                "fullDescription": "Embarking on 'Attic Conversion' means embarking on a path of discovery and excellence. The project spans Five Weeks for a contractor, Four Weeks for a plumber, Four Weeks for a electrician. We invite passionate professionals to contribute to this groundbreaking endeavor."
+            }
+        },
+        {
+            "id": "10",
+            "user": "1",
+            "name": {
+                "firstName": "Israel",
+                "lastName": "Rodriguez"
+            },
+            "project": {
+                "projectTitle": "Pool Installation",
+                "projectDescription": "I want to add a swimming pool to my backyard for summer fun.",
+                "positionsNeeded": {
+                    "pool-builder": {
+                        "payPerHour": "$70",
+                        "workDuration": "Eight Weeks",
+                        "experience": "7 years",
+                        "applicantCount": 2,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Nathan R.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "nathanr123@gmail.com",
+                                "comments": "I'm a skilled pool builder, and your pool will be amazing."
+                            },
+                            {
+                                "applicant": "Emma L.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "emmal456@gmail.com",
+                                "comments": "I'll ensure your pool is designed for maximum enjoyment."
+                            }
+                        ]
+                    },
+                    "landscape-designer": {
+                        "payPerHour": "$60",
+                        "workDuration": "Six Weeks",
+                        "experience": "6 years",
+                        "applicantCount": 1,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Noah D.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "noahd789@gmail.com",
+                                "comments": "I'll design the perfect pool area for your backyard."
+                            }
+                        ]
+                    },
+                    "pool-technician": {
+                        "payPerHour": "$55",
+                        "workDuration": "Eight Weeks",
+                        "experience": "5 years",
+                        "applicantCount": 2,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Sophie B.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "sophieb123@gmail.com",
+                                "comments": "I'll ensure your pool is properly maintained."
+                            },
+                            {
+                                "applicant": "David H.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "davidh456@gmail.com",
+                                "comments": "I specialize in pool equipment and maintenance."
+                            }
+                        ]
+                    }
+                },
+                "fullDescription": "The 'Pool Installation' initiative is all about transformation and innovation. We've planned Eight Weeks for a pool-builder, Six Weeks for a landscape-designer, Eight Weeks for a pool-technician. This project is an exciting opportunity to create something truly remarkable."
+            }
+        },
+        {
+            "id": "11",
+            "user": "2",
+            "name": {
+                "firstName": "John",
+                "lastName": "Doe"
+            },
+            "project": {
+                "projectTitle": "Home Theater Installation",
+                "projectDescription": "I want to set up a state-of-the-art home theater in my living room.",
+                "positionsNeeded": {
+                    "home-theater-installer": {
+                        "payPerHour": "$75",
+                        "workDuration": "Four Weeks",
+                        "experience": "6 years",
+                        "applicantCount": 2,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Sophia C.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "sophiac123@gmail.com",
+                                "comments": "I'll handle the entire home theater setup for you."
+                            },
+                            {
+                                "applicant": "Daniel G.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "danielg456@gmail.com",
+                                "comments": "I'm an experienced installer ready for your project."
+                            }
+                        ]
+                    },
+                    "electrician": {
+                        "payPerHour": "$60",
+                        "workDuration": "Three Weeks",
+                        "experience": "5 years",
+                        "applicantCount": 1,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Daniel W.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "danielw123@gmail.com",
+                                "comments": "I'll handle all electrical work for your home theater."
+                            }
+                        ]
+                    },
+                    "audio-visual-technician": {
+                        "payPerHour": "$70",
+                        "workDuration": "Four Weeks",
+                        "experience": "4 years",
+                        "applicantCount": 2,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Olivia M.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "oliviam456@gmail.com",
+                                "comments": "I'm the AV technician you need for your home theater project."
+                            },
+                            {
+                                "applicant": "Jack B.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "jackb789@gmail.com",
+                                "comments": "I'll ensure your home theater has top-notch audio and visual quality."
+                            }
+                        ]
+                    }
+                },
+                "fullDescription": "For 'Home Theater Installation', we envision a comprehensive and dynamic approach. The timeline is set for Four Weeks for a home-theater-installer, Three Weeks for a electrician, Four Weeks for a audio-visual-technician. We're seeking creative minds to join us on this ambitious journey."
+            }
+        },
+        {
+            "id": "12",
+            "user": "3",
+            "name": {
+                "firstName": "Alice",
+                "lastName": "Smith"
+            },
+            "project": {
+                "projectTitle": "Deck Renovation",
+                "projectDescription": "I want to renovate my existing deck to make it more stylish and functional.",
+                "positionsNeeded": {
+                    "deck-builder": {
+                        "payPerHour": "$70",
+                        "workDuration": "Five Weeks",
+                        "experience": "7 years",
+                        "applicantCount": 2,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Nathan R.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "nathanr123@gmail.com",
+                                "comments": "I'm a skilled deck builder, and your deck will be fantastic."
+                            },
+                            {
+                                "applicant": "Emma L.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "emmal456@gmail.com",
+                                "comments": "I'll ensure your deck is both stylish and functional."
+                            }
+                        ]
+                    },
+                    "landscape-designer": {
+                        "payPerHour": "$65",
+                        "workDuration": "Four Weeks",
+                        "experience": "6 years",
+                        "applicantCount": 1,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Noah D.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "noahd789@gmail.com",
+                                "comments": "I'll design the perfect deck layout for your needs."
+                            }
+                        ]
+                    },
+                    "painter": {
+                        "payPerHour": "$55",
+                        "workDuration": "Three Weeks",
+                        "experience": "5 years",
+                        "applicantCount": 2,
+                        "applicantInfo": [
+                            {
+                                "applicant": "Sophie B.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "sophieb123@gmail.com",
+                                "comments": "I'll give your deck a fresh and appealing look."
+                            },
+                            {
+                                "applicant": "David H.",
+                                "hasExperience": true,
+                                "termsAgreement": true,
+                                "email": "davidh456@gmail.com",
+                                "comments": "I specialize in deck painting and refinishing."
+                            }
+                        ]
+                    }
+                },
+                "fullDescription": "Embarking on 'Deck Renovation' means embarking on a path of discovery and excellence. The project spans Five Weeks for a deck-builder, Four Weeks for a landscape-designer, Three Weeks for a painter. We invite passionate professionals to contribute to this groundbreaking endeavor."
+            }
+        }
+    ]
 }
