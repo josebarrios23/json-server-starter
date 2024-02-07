@@ -15,21 +15,18 @@
                         "payPerHour": "$40",
                         "workDuration": "Two Weeks",
                         "experience": "3 years",
-                        "applicantCount": 0,
                         "applicantInfo": []
                     },
                     "electrician": {
                         "payPerHour": "$45",
                         "workDuration": "Two Weeks",
                         "experience": "5 years",
-                        "applicantCount": 0,
                         "applicantInfo": []
                     },
                     "carpenter": {
                         "payPerHour": "$50",
                         "workDuration": "Two Weeks",
                         "experience": "7 years",
-                        "applicantCount": 1,
                         "applicantInfo": [
                             {
                                 "applicant": "Alan R.",
@@ -59,7 +56,6 @@
                         "payPerHour": "$55",
                         "workDuration": "Three Weeks",
                         "experience": "4 years",
-                        "applicantCount": 2,
                         "applicantInfo": [
                             {
                                 "applicant": "Sarah P.",
@@ -81,7 +77,6 @@
                         "payPerHour": "$30",
                         "workDuration": "Two Weeks",
                         "experience": "2 years",
-                        "applicantCount": 3,
                         "applicantInfo": [
                             {
                                 "applicant": "Emily S.",
@@ -110,7 +105,6 @@
                         "payPerHour": "$50",
                         "workDuration": "Three Weeks",
                         "experience": "6 years",
-                        "applicantCount": 1,
                         "applicantInfo": [
                             {
                                 "applicant": "Tom W.",
@@ -140,7 +134,6 @@
                         "payPerHour": "$60",
                         "workDuration": "Four Weeks",
                         "experience": "5 years",
-                        "applicantCount": 2,
                         "applicantInfo": [
                             {
                                 "applicant": "Mark B.",
@@ -162,7 +155,6 @@
                         "payPerHour": "$40",
                         "workDuration": "Three Weeks",
                         "experience": "3 years",
-                        "applicantCount": 1,
                         "applicantInfo": [
                             {
                                 "applicant": "Sam T.",
@@ -177,7 +169,6 @@
                         "payPerHour": "$55",
                         "workDuration": "Four Weeks",
                         "experience": "6 years",
-                        "applicantCount": 3,
                         "applicantInfo": [
                             {
                                 "applicant": "Eva M.",
@@ -221,7 +212,6 @@
                         "payPerHour": "$45",
                         "workDuration": "Three Weeks",
                         "experience": "4 years",
-                        "applicantCount": 1,
                         "applicantInfo": [
                             {
                                 "applicant": "Nina W.",
@@ -236,7 +226,6 @@
                         "payPerHour": "$35",
                         "workDuration": "Two Weeks",
                         "experience": "2 years",
-                        "applicantCount": 2,
                         "applicantInfo": [
                             {
                                 "applicant": "George S.",
@@ -258,7 +247,6 @@
                         "payPerHour": "$50",
                         "workDuration": "Three Weeks",
                         "experience": "3 years",
-                        "applicantCount": 2,
                         "applicantInfo": [
                             {
                                 "applicant": "Tom H.",
@@ -295,7 +283,6 @@
                         "payPerHour": "$55",
                         "workDuration": "Three Weeks",
                         "experience": "4 years",
-                        "applicantCount": 2,
                         "applicantInfo": [
                             {
                                 "applicant": "Alex C.",
@@ -317,7 +304,6 @@
                         "payPerHour": "$50",
                         "workDuration": "Two Weeks",
                         "experience": "3 years",
-                        "applicantCount": 1,
                         "applicantInfo": [
                             {
                                 "applicant": "Ryan M.",
@@ -332,7 +318,6 @@
                         "payPerHour": "$40",
                         "workDuration": "Two Weeks",
                         "experience": "2 years",
-                        "applicantCount": 2,
                         "applicantInfo": [
                             {
                                 "applicant": "Sophie B.",
@@ -369,7 +354,6 @@
                         "payPerHour": "$60",
                         "workDuration": "Four Weeks",
                         "experience": "5 years",
-                        "applicantCount": 2,
                         "applicantInfo": [
                             {
                                 "applicant": "Lucas R.",
@@ -391,7 +375,6 @@
                         "payPerHour": "$70",
                         "workDuration": "Three Weeks",
                         "experience": "4 years",
-                        "applicantCount": 1,
                         "applicantInfo": [
                             {
                                 "applicant": "Noah D.",
@@ -406,7 +389,6 @@
                         "payPerHour": "$45",
                         "workDuration": "Two Weeks",
                         "experience": "2 years",
-                        "applicantCount": 2,
                         "applicantInfo": [
                             {
                                 "applicant": "Lily M.",
@@ -443,7 +425,6 @@
                         "payPerHour": "$65",
                         "workDuration": "Five Weeks",
                         "experience": "6 years",
-                        "applicantCount": 3,
                         "applicantInfo": [
                             {
                                 "applicant": "Sophia C.",
@@ -472,7 +453,6 @@
                         "payPerHour": "$55",
                         "workDuration": "Four Weeks",
                         "experience": "5 years",
-                        "applicantCount": 1,
                         "applicantInfo": [
                             {
                                 "applicant": "Daniel W.",
@@ -487,7 +467,6 @@
                         "payPerHour": "$60",
                         "workDuration": "Four Weeks",
                         "experience": "4 years",
-                        "applicantCount": 2,
                         "applicantInfo": [
                             {
                                 "applicant": "Olivia M.",
@@ -524,7 +503,6 @@
                         "payPerHour": "$70",
                         "workDuration": "Four Weeks",
                         "experience": "7 years",
-                        "applicantCount": 2,
                         "applicantInfo": [
                             {
                                 "applicant": "Nathan R.",
@@ -546,7 +524,6 @@
                         "payPerHour": "$45",
                         "workDuration": "Two Weeks",
                         "experience": "3 years",
-                        "applicantCount": 1,
                         "applicantInfo": [
                             {
                                 "applicant": "Jacob P.",
@@ -561,7 +538,6 @@
                         "payPerHour": "$50",
                         "workDuration": "Three Weeks",
                         "experience": "4 years",
-                        "applicantCount": 1,
                         "applicantInfo": [
                             {
                                 "applicant": "Sophia W.",
@@ -591,7 +567,6 @@
                         "payPerHour": "$65",
                         "workDuration": "Five Weeks",
                         "experience": "6 years",
-                        "applicantCount": 3,
                         "applicantInfo": [
                             {
                                 "applicant": "Sophia C.",
@@ -620,7 +595,6 @@
                         "payPerHour": "$55",
                         "workDuration": "Four Weeks",
                         "experience": "5 years",
-                        "applicantCount": 1,
                         "applicantInfo": [
                             {
                                 "applicant": "Daniel W.",
@@ -635,7 +609,6 @@
                         "payPerHour": "$60",
                         "workDuration": "Four Weeks",
                         "experience": "4 years",
-                        "applicantCount": 2,
                         "applicantInfo": [
                             {
                                 "applicant": "Olivia M.",
@@ -672,7 +645,6 @@
                         "payPerHour": "$70",
                         "workDuration": "Eight Weeks",
                         "experience": "7 years",
-                        "applicantCount": 2,
                         "applicantInfo": [
                             {
                                 "applicant": "Nathan R.",
@@ -694,7 +666,6 @@
                         "payPerHour": "$60",
                         "workDuration": "Six Weeks",
                         "experience": "6 years",
-                        "applicantCount": 1,
                         "applicantInfo": [
                             {
                                 "applicant": "Noah D.",
@@ -709,7 +680,6 @@
                         "payPerHour": "$55",
                         "workDuration": "Eight Weeks",
                         "experience": "5 years",
-                        "applicantCount": 2,
                         "applicantInfo": [
                             {
                                 "applicant": "Sophie B.",
@@ -746,7 +716,6 @@
                         "payPerHour": "$75",
                         "workDuration": "Four Weeks",
                         "experience": "6 years",
-                        "applicantCount": 2,
                         "applicantInfo": [
                             {
                                 "applicant": "Sophia C.",
@@ -768,7 +737,6 @@
                         "payPerHour": "$60",
                         "workDuration": "Three Weeks",
                         "experience": "5 years",
-                        "applicantCount": 1,
                         "applicantInfo": [
                             {
                                 "applicant": "Daniel W.",
@@ -783,7 +751,6 @@
                         "payPerHour": "$70",
                         "workDuration": "Four Weeks",
                         "experience": "4 years",
-                        "applicantCount": 2,
                         "applicantInfo": [
                             {
                                 "applicant": "Olivia M.",
@@ -820,7 +787,6 @@
                         "payPerHour": "$70",
                         "workDuration": "Five Weeks",
                         "experience": "7 years",
-                        "applicantCount": 2,
                         "applicantInfo": [
                             {
                                 "applicant": "Nathan R.",
@@ -842,7 +808,6 @@
                         "payPerHour": "$65",
                         "workDuration": "Four Weeks",
                         "experience": "6 years",
-                        "applicantCount": 1,
                         "applicantInfo": [
                             {
                                 "applicant": "Noah D.",
@@ -857,7 +822,6 @@
                         "payPerHour": "$55",
                         "workDuration": "Three Weeks",
                         "experience": "5 years",
-                        "applicantCount": 2,
                         "applicantInfo": [
                             {
                                 "applicant": "Sophie B.",
